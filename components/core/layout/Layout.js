@@ -1,9 +1,16 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
+
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
+import HeroBanner from '@/components/hero-banner/HeroBanner'
+
 import styles from './Layout.module.scss'
 
 const Layout = ({title, keywords, description, children}) => {
+
+  const router = useRouter()
+
   return (
     <>
     <Head>
@@ -13,6 +20,8 @@ const Layout = ({title, keywords, description, children}) => {
     </Head>
     
     <Header />
+
+    { router.pathname === '/' && <HeroBanner /> }
 
     <div className={styles.container}>
         
