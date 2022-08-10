@@ -1,6 +1,8 @@
 const ProjectsPage = () => {
   return (
-    <h1>Projects Page</h1>
+    <Layout>
+      <h1>Projects Page</h1>
+    </Layout>
   )
 }
 export default ProjectsPage
