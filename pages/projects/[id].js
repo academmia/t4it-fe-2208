@@ -1,11 +1,11 @@
 import { useRouter } from "next/router";
-import Layout from "../../components/core/layout/Layout";
+import Layout from "@/components/core/layout/Layout";
 
 const ProjectPage = () => {
  
     const router = useRouter();
 
-    console.log(router);
+    // console.log(router);
 
     return (
         <Layout>

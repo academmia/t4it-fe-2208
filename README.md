@@ -33,5 +33,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-git checkout -b "t4it-fe-00000-short-feature-description"
+git checkout -b "t4it-fe-00000"
 git commit -m "[t4it-fe-00000] short feature description"
