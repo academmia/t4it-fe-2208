@@ -1,6 +1,10 @@
+import Layout from "../../components/core/layout/Layout"
+
 const AddProjectPage = () => {
   return (
-    <div>Add Project Page</div>
+    <Layout title={'New project'}>
+      <h1>Add new project</h1>
+    </Layout>
   )
 }
 export default AddProjectPage
